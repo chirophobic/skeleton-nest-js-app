@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Base TSConfig",
+  "compilerOptions": {
+    "allowJs": true,
+    "composite": true,
+    "declaration": true,
+    "declarationMap": true,
+    "esModuleInterop": true,
+    // TODO: Enable this compiler flag:
+    //"exactOptionalPropertyTypes": true,
+    "forceConsistentCasingInFileNames": true,
+    "keyofStringsOnly": false,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noErrorTruncation": true,
+    "noFallthroughCasesInSwitch": true,
+    // TODO: Enable this compiler flag:
+    //"noImplicitOverride": true,
+    "noImplicitReturns": true,
+    // TODO: Enable this compiler flag:
+    //"noPropertyAccessFromIndexSignature": true,
+    // TODO: Enable this compiler flag:
+    //"noUncheckedIndexedAccess": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "paths": {},
+    "preserveSymlinks": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "strict": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "types": [],
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "importsNotUsedAsValues": "error",
+    "target": "es2017",
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "incremental": true
+  }
+}
